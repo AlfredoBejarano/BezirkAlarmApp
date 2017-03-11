@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BezirkAlarmApp</string>
+    <string name="not_safe">You are not safe \n please get to safety and report it.</string>
+    <string name="safe">You are safe/n your report %1$s</string>
+    <string name="report_being_sent">is being sent.</string>
+    <string name="report_sent">was sent successfully.</string>
 </resources>
