@@ -1,7 +1,6 @@
 package com.alfredobejarano.bezirkalarmapp.utils;
 
-import android.app.Activity;
-
+import android.content.Context;
 import com.bezirk.middleware.Bezirk;
 import com.bezirk.middleware.android.BezirkMiddleware;
 
@@ -12,8 +11,8 @@ import com.bezirk.middleware.android.BezirkMiddleware;
 public class BezirkUtils {
     public static final String zirkName = "Alarm Android App Zirk";
 
-    public Bezirk initializeBezirk(Activity activity) {
-        BezirkMiddleware.initialize(activity);
+    public Bezirk initializeBezirk(Context context) {
+        BezirkMiddleware.initialize(context);
         return BezirkMiddleware.registerZirk(zirkName);
     }
 }
