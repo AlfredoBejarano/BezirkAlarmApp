@@ -4,4 +4,6 @@
     <string name="safe">You are safe/n your report %1$s</string>
     <string name="report_being_sent">is being sent.</string>
     <string name="report_sent">was sent successfully.</string>
+    <string name="notification_title">Get to safety!</string>
+    <string name="notification_body">A sinister is happening right now!, get to safety and report when you get there.</string>
 </resources>
